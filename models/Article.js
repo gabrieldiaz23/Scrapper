@@ -11,6 +11,10 @@ var articleModel = new Schema({
         type: String,
         required: true
     },
+    articleURL: {
+        type: String,
+        required: true
+    },
     saved: {
         type: Boolean,
         default: false
